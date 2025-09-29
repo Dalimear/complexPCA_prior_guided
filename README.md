@@ -3,7 +3,7 @@
 **Guided Complex PCA for Traveling-Wave Analysis in fMRI Data**
 
 This repository provides a Python implementation of **guided complex PCA (CPCA)** for capturing traveling and standing wave patterns in fMRI data, with an extra twist:  
-we *guide* each subject’s decomposition toward a **group template** so that components can be reliably compared across subjects.
+we guide each subject’s decomposition toward a group template so that components can be reliably compared across subjects.
 
 ---
 
