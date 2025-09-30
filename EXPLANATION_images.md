@@ -1,4 +1,4 @@
-# Complex PCA and Guided cPCA: Outputs and Interpretation (image-backed equations)
+# Complex PCA and Guided cPCA: Outputs and Interpretation 
 
 ## Summary
 Complex PCA (cPCA) is applied to analytic (complex) BOLD signals to obtain complex components (time courses and spatial loadings with phase). The reconstruction produces a matrix with dimensions (bins x parcels), where each entry represents a z-scored BOLD level at a given phase bin of one oscillatory cycle. Guided cPCA augments the subject covariance with a low-rank prior aligned to group templates, which encourages but does not force alignment.
