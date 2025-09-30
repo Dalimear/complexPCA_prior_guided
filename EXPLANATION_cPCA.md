@@ -85,5 +85,5 @@ This workflow can be run without global signal regression. cPCA typically isolat
 - Can the bin count be changed? Yes, via `--n_recon_bins`, trading temporal detail for signal-to-noise.
 - Is double bandpass filtering recommended? If data have already been filtered upstream, an additional bandpass step is generally avoided to prevent unintended narrowing of the passband and phase distortion.
 
-## One-sentence summary
+## Summary
 cPCA is applied to analytic BOLD; a component’s instantaneous contribution is $\Re\{s_k(t)\ell_{k,\cdot}\}$, which is then phase-binned into a bins x parcels, z-scored template of one cycle; guided cPCA adds a low-rank prior $T\,\mathrm{diag}(\lambda)\,T^{H}$ so components remain data-driven while being gently aligned to a group template.
