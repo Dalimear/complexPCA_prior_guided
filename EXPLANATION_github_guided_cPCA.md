@@ -1,4 +1,4 @@
-# Complex PCA and Guided cPCA: Outputs and Interpretation (KaTeX-minimal)
+# Complex PCA and Guided cPCA: Outputs and Interpretation 
 
 ## 1) Data and normalization
 When `--normalize zscore` is used:
